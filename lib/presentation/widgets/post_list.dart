@@ -65,6 +65,6 @@ class _PostsListState extends State<PostsList> {
     if (!_scrollController.hasClients) return false;
     final maxScroll = _scrollController.position.maxScrollExtent;
     final currentScroll = _scrollController.offset;
-    return currentScroll >= (maxScroll * 0.4);
+    return currentScroll >= (maxScroll * 0.9);
   }
 }
